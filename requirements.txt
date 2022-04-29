@@ -1,0 +1,4 @@
+python-dotenv
+numpy
+termcolor
+rich
