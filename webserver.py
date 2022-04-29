@@ -94,7 +94,7 @@ class Server(SocketContainer):
 
 
 class WebServer:
-    TERMINATE_TIMEOUT_DURATION = 20
+    TERMINATE_TIMEOUT_DURATION = 60
 
     def __init__(self, host, port):
         self._logger: Logger = Logger()
